@@ -1,8 +1,43 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: #F0C9EB;
+  height: 100%;
+  font-family: 'Lekton', sans-serif;
+  padding: 30px;
+}
+
 #receipt {
   display:none;
   margin-top: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
   margin-bottom: 30px;
+}
+
+#input{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin: 30px;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  box-shadow: 5px 10px #888888;
 }
