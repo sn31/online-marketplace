@@ -1,3 +1,8 @@
 #receipt {
   display:none;
+  margin-top: 20px;
+}
+
+.row {
+  margin-bottom: 30px;
 }

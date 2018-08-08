@@ -10,7 +10,44 @@
   </head>
   <body>
     <div class="container-fluid">
-      <h1>Javascript Lessons</h1>
+      <h1>Javascript Books</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/b1.jpeg" alt="Eloquent JS">
+            <div class="card-body">
+              <h5 class="card-title">Eloquent Javascript</h5>
+              <p class="card-text">Eloquent JavaScript dives into the JavaScript language to show programmers how to write elegant, effective JavaScript code. Like any good programming book, Eloquent JavaScript begins with fundamentals--variables, </p>
+              <a href="#">More...</a><br />
+              <button class="btn btn-info" id="book1" value="Eloquent Javascript">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/b1.jpeg" alt="Eloquent JS">
+            <div class="card-body">
+              <h5 class="card-title">Eloquent Javascript</h5>
+              <p class="card-text">Eloquent JavaScript dives into the JavaScript language to show programmers how to write elegant, effective JavaScript code. Like any good programming book, Eloquent JavaScript begins with fundamentals--variables, </p>
+              <a href="#">More...</a><br />
+              <button class="btn btn-info" id="book2" value="Eloquent Javascript">Add to cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/b1.jpeg" alt="Eloquent JS">
+            <div class="card-body">
+              <h5 class="card-title">Eloquent Javascript</h5>
+              <p class="card-text">Eloquent JavaScript dives into the JavaScript language to show programmers how to write elegant, effective JavaScript code. Like any good programming book, Eloquent JavaScript begins with fundamentals--variables, </p>
+              <a href="#">More...</a><br />
+              <button class="btn btn-info" id="book3" value="Eloquent Javascript">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <form id="input">
         <div class="form-group">
           <label for="name">Full Name</label>
@@ -19,9 +56,6 @@
         <div class="form-group">
           <label for="address">Address</label>
           <textarea class="form-control" rows="3" id="address"></textarea>
-          <!-- <input id="addressStreet" class="form-control" type="text"> -->
-          <!-- <input id="addressApt" class="form-control" type="text">
-          <input id="addressState" class="form-control" type="text"> -->
         </div>
         <button class="btn btn-success">Submit order</button>
       </form>
@@ -31,6 +65,11 @@
           <div class="card-body">
             <p>Customer's Name: <span class="name"></span></p>
             <p>Customer's Address: <span class="address"></span></p>
+            <p>Today's purchase:
+              <ul id="purchase">
+
+              </ul>
+            </p>
           </div>
           <div class="card-footer text-muted"><span class="name"></span>, thank you for your purchase! Please visit us again soon.</div>
         </div>
