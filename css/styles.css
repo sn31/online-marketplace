@@ -17,7 +17,7 @@ body{
 }
 
 .row {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 #input{
@@ -30,6 +30,12 @@ body{
 h1{
   text-align: center;
   margin: 30px;
+  font-family: 'Lekton', sans-serif;
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
 }
 .row-eq-height {
   display: -webkit-box;
@@ -39,5 +45,11 @@ h1{
 }
 
 .card {
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 10px #c2efdf;
+}
+
+.btn, .card-header, .card-footer {
+  background-color: #c2efdf;
+  color: black;
+  font-weight: bold;
 }
